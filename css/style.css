@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+    font-family: 'Courgette';
+    src: url('../../fonts/Courgette-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh; 
+}
+
+section:nth-of-type(2n) {
+    background-color: #FE4B74;
+}
+
+.intro {
+    height: 90vh;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 3em;
+    display: block;
+    color: #FFF;
+    font-weight: 300%;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 500%;
+    color: #C3CAD9;
+}
+
+#link {
+    font-weight: 700%;
+    color: #373B44;
+    position: relative;
+}
+#link:hover {
+    opacity: 0.8;
+}
+#link:active {
+    top: 1px;
+}
+
+.next_button a {
+    font-size: 175%;
+    color: #FFF;
+}
+
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    background: #DDD;
+}
+footer p {
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.code_section {
+    display: block;
+    padding: 0 40px;
+    background: #DDD;
+}
+
+.title_code {
+    font-size: 36px;
+    color: #2A2A2A;
+    text-align: center;
+}
+
+.source_code {
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.social{
+    font-size: 60px;
+}
+.wrapper_min {
+    padding: 30px 60px 0 60px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.copyright {
+    font-family: 'Courgette', cursive;
+    font-size: 10px;
+}
